@@ -1,0 +1,40 @@
+{
+	// add name?
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.autopep8",
+				"ms-python.debugpy",
+				"ms-python.isort",
+				"donjayamanne.python-environment-manager",
+				"donjayamanne.python-extension-pack",
+				"etmoffat.pip-packages",
+				"aaron-bond.better-comments",
+				"formulahendry.code-runner",
+				"github.copilot",
+				"github.vscode-pull-request-github",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode-remote.remote-containers",
+				"ms-vscode-remote.remote-ssh",
+				"ms-vscode-remote.vscode-remote-extensionpack",
+				"ms-toolsai.jupyter",
+				"ritwickdey.liveserver",
+				"visualstudioexptteam.vscodeintellicode",
+				"esbenp.prettier-vscode"
+			],
+			"settings": {
+				"python.pythonPath": "/usr/local/bin/python",
+				"python.linting.pylintEnabled": false,
+				"python.formatting.provider": "ms-python.python",
+				"editor.formatOnSave": true
+			}
+		}
+	},
+	"postCreateCommand": "pip install -r requirements.txt"
+}
