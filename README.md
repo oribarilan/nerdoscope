@@ -15,6 +15,7 @@ This is a simple demo project aimed at helping with basic first steps in setting
 5. Inside the dev container, run `ollama serve`
 6. Open another terminal and download the model `ollama pull orca-mini:3b`
 
+
 ## Instructions
 
 ### Play Around
@@ -31,9 +32,10 @@ Don't worry, you can always change this later :)
 Now, enter the dev container and open the Jupyter Notebook at `src/demo.ipynb`.
 Follow along with the notebook to see how to use the model in your app.
 
-### Code your CLI
+### Code your CLI Tool
 
-TBD
+Try taking what you learned from the Jupyter Notebook and implement a simple CLI tool for the task.
+You can reference `app.py` for the stupidly simple nerdoscope CLI tool.
 
 ## Useful Links
 
